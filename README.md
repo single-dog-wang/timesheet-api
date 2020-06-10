@@ -1,0 +1,18 @@
+#### 项目整体文件说明
+- node_modules 项目依赖的第三方模块
+- config 配置文件目录
+    - db: MongoDb数据库配置
+    - jwt: token的设置
+- routes 路由
+    - auth.js 登录、注册路由
+    - user.js 用户管理
+- controllers 控制层
+    - authController 登录、注册的业务逻辑
+    - userController 用户删改查的业务逻辑
+- models 数据层
+    - authModel.js 用户模型
+- middleware 中间件
+    - apiResult.js 统一返回结果集格式  
+    - authorization.js 验证token
+- app.js 主项目入口文件
+- package.json 项目配置文件
